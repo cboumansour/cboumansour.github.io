@@ -1,0 +1,68 @@
+h1 {
+  font-family: 'Monterrat', sans-serif;
+  font-size: 60px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+}
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav {
+  height: 50px;
+  width: 100%;
+  background-color: #333333;
+}
+
+a {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 50px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #ffffff;
+}
+
+#left-nav {
+  float: left;
+  margin: 0px;
+  margin-left: 5%;
+}
+
+#right-nav {
+  float: right;
+  margin: 0px;
+  margin-right: 5%;
+}
+
+/* END NAV STYLING */
+.hero {
+  width: 100%;
+  background: url('Images/background.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.hero .hero-text {
+  text-align: center;
+  padding: 150px;
+}
+
+.hero .hero-text h1 {
+  margin: 0px;
+}
